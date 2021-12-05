@@ -5,6 +5,8 @@
 
   .header {
       background-image: url(/Resources/SVG/Copy\ of\ Completely\ free\ CBC\ logo.svg);
+      height:fit-content;
+      background-position: center center;
   }
 
   h1 {
