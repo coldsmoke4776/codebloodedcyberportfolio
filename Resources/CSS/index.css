@@ -3,6 +3,10 @@
     
   }
 
+  .bannerblock {
+      background-image: url("/Resources/SVG/Copy\ of\ Completely\ free\ CBC\ logo.svg");
+  }
+
   h1 {
     color: SeaGreen;
   }
@@ -18,4 +22,3 @@
     text-decoration: none;
   }
 
-  
