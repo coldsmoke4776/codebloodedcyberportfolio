@@ -3,8 +3,8 @@
     
   }
 
-  body {
-    background-image: url("./Resources/SVG/layered-peaks-haikei-2.svg");
+* {
+    background-image: url("/Resources/SVG/layered-peaks-haikei-2.svg");
   }
    
    
