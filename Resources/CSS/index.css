@@ -3,6 +3,9 @@
     
   }
 
+  body {
+      background-color: slateblue;
+  }
 
   h1 {
     color: SeaGreen;
