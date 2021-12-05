@@ -3,8 +3,8 @@
     
   }
 
-  #bannerblock {
-      background-image: url("/Resources/SVG/Copy\ of\ Completely\ free\ CBC\ logo.svg");
+  .header {
+      background-image: url(/Resources/SVG/Copy\ of\ Completely\ free\ CBC\ logo.svg);
   }
 
   h1 {
