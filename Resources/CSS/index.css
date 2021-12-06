@@ -27,3 +27,8 @@
       margin-left: auto;
       margin-right: auto;
   }
+
+  nav {
+      background-color: hsla(230, 100%, 25%, 0.4);
+      color: whitesmoke;
+  }
