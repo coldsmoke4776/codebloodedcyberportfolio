@@ -8,8 +8,8 @@
   }
 
   h1 {
-    color: SeaGreen;
-    background-color: lightgreen;
+    color: hsla(245, 100%, 25%, 0.4);;
+    background-color: hsla(235, 100%, 25%, 0.4);
   }
    
    
