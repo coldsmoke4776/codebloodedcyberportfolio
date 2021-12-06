@@ -31,4 +31,6 @@
   nav {
       background-color: hsla(230, 100%, 25%, 0.4);
       color: whitesmoke;
+      text-align: center;
+      font-weight: bold;
   }
