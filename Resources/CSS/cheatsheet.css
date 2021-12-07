@@ -33,6 +33,12 @@
       color: whitesmoke;
       text-align: center;
       font-weight: bold;
+      padding: 5px;
+  }
+
+  nav a {
+    padding-left: 3px;
+    padding-right: 3px;
   }
 
   h2 {
@@ -67,7 +73,7 @@
 
   }
 
-  .boxmodel_diagram {
+  .boxmodel_diagram { 
       padding-top: 10px;
       padding-bottom: 10px;
       background-color:hsla(225, 45%, 60%, 0.4) ;
