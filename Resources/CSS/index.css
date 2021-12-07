@@ -39,11 +39,11 @@
       text-align: center;
   }
 
-  img {
+  .boxmodel {
     margin-left: auto;
     margin-right: auto;
   }
 
-  figcaption {
+  .boxmodel figcaption {
       text-align: center
   }
