@@ -15,6 +15,9 @@
         <a href="resume.html">Resume</a>
       </nav>
       <br>
+      <div class='html_section'>
+      <h2>HTML Tips & Tricks</h2>
+      <br>
       <table border="1" bgcolor='#fff0f5'>
           <thead>
               <tr>
@@ -110,36 +113,68 @@
             </tr>
           </tbody>
       </table>
+    </div>
       <br>
       <br>
       <br>
-      <div class='boxmodel'>
-          <h2>CSS Tips & Tricks</h2>
-          <br>
-          <img src="Resources/CSS/CSS box model.svg"/>
+    <div class='boxmodel_diagram'>
+        <h2>CSS Tips & Tricks</h2>
+        <br>
+          <img class='boxmodel' src="Resources/CSS/CSS box model.svg" alt='The CSS Box Model'/>
           <figcaption>The Box Model - Well worth learning if you can! </figcaption>
-          <p>The main thing you need to learn about the Box Model is that it comprises <br>
-        the properties that govern how elements show up on a web page. There are three available properties that can be adjusted to control its appearance.</p>
-          <br>
+          <p>The main thing you need to learn about the Box Model is that it comprises
+        the properties <br> that govern how elements show up on a web page. There are three available properties <br> that can be adjusted to control its appearance.</p>
           <h3>Border</h3>
           <p>Every box has a border around it, whether it's visible or not - its job is to separate one box's edge from another box's edge.</p>
           <h3>Margin</h3>
           <p>Margin sit outside the edge of the border and create gaps <em>between</em> borders!</p>
           <h3>Padding</h3>
           <p>Padding is just the space between your content and the border of a box!</p>
-      </div>
+    </div>
+    <div class='css_section'>
       <br>
       <br>
       <table border="1" bgcolor=#fff0f5>
         <thead>
             <tr>
-                <th scope="col">CSS TIP</th>
+                <th scope="col">CSS TIP ( Use within { } )</th>
                 <th scope="col"> Why It's Important</th>
             </tr>
         </thead>
         <tbody>
+            <tr>
+                <td>font-size</td>
+                <td>Lets you specify the size for your chosen font. Specify a <strong>px</strong> value, <br> a <strong>percentage</strong> value (will be a percentage of default size of 16px) <br> or an <strong>ems</strong> value (1em is equal to the width of the letter m) </td>
+            </tr>
+            <tr>
+                <td>font-family</td>
+                <td>Lets you specify the typefaces that should be used within the specified HTML element.<br>
+                For example, you could use Georgia, 'Times New Roman', serif to let the browser know to <br>
+                use Georgia as a font first, Times New Roman if it can't find it and any serif font as a last resort.</td>
+            </tr>
+            <tr>
+                <td>font-weight</td>
+                <td>Lets you choose a numerical value e.g 900 or a named value like <strong>bold</strong> <br> to denote how strongly text appears in the specified element.</td>
+            </tr>
+            <tr>
+                <td>text-align</td>
+                <td>Lets you specify how your text is aligned within the specified element. <br>Mostly use named values like <em>left, right</em> or <em>center.</em></td>
+            </tr>
+            <tr>
+                <td>text-transform</td>
+                <td>Lets you transform the case of the text within the specified element.<br> Values normally used are <em>uppercase, lowercase</em> or <em>capitalize.</em></td>
+            </tr>
+            <tr>
+                <td>text-decoration</td>
+                <td>Lets you add effects/decoration to your text. Values normally used are <br> <em> underline, overline,</em> and <em>line-through.</em></td>
+            </tr>
+            <tr>
+                <td>text-indent</td>
+                <td>Lets you indent the first line of text within an element. Value normally given as a <strong>px</strong> value. <br> Positive to indent right, negative to indent left. </td>
+            </tr>
 
         </tbody>
       </table>
+    </div>
   </body>
   </html>
