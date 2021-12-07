@@ -3,7 +3,7 @@
   }
 
   body {
-    background-color: hsla(225, 100%, 25%, 0.4);
+    background-color: hsla(224, 49%, 15%, 0.4);
   }
 
   h1 {
@@ -58,6 +58,25 @@
       padding-top: 5px;
       text-align: center;
       font-weight: bold;
+  }
+
+  .html_section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:hsla(215, 45%, 60%, 0.4);
+
+  }
+
+  .boxmodel_diagram {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color:hsla(225, 45%, 60%, 0.4) ;
+  }
+
+  .css_section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: hsla(255, 45%, 60%, 0.4);
   }
 
   
