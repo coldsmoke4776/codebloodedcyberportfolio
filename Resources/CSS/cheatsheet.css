@@ -67,6 +67,7 @@
 .boxmodel_diagram h2 {
   font-family: 'Playfair Display', Serif;
   font-size: 42px;
+  color: hsla(263, 68%, 7%, 0.4);
 }
 
 img.boxmodel {
