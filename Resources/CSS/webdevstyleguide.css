@@ -10,8 +10,10 @@
   }
 
   h1 {
-    color: #AD94FF;
-    text-align: center
+    text-align: center;
+    color: #aba1ec;
+    font-weight: bold;
+    font-family: 'Playfair', sans-serif;
   }
 
   h2 {
@@ -29,4 +31,16 @@
    
   a {
     text-decoration: none;
+  }
+
+  /* Page Section Styling */
+
+  .color_section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:hsla(215, 45%, 60%, 0.4);
+    background-image: url(./wave-haikei.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
   }
