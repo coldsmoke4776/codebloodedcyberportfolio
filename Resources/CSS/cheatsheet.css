@@ -35,22 +35,38 @@
       color: whitesmoke;
       text-align: center;
       font-weight: bold;
-      padding: 5px;
+      padding: 5px 5px;
   }
 
   nav a {
-    padding-left: 3px;
-    padding-right: 3px;
+    float: left;
     color: #B19CFF;
+    display: block;
+    text-align: center;
+    padding: 14px 16px 0px 14px;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+  }
+
+  nav a:last-child {
+    border-right: none;
+  }
+
+  nav a:active {
+    background-color:hsla(215, 45%, 60%, 0.4);
   }
 
   nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 5px 5px;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #5360aa;
   }
+
 
   h2 {
       text-align:center;
