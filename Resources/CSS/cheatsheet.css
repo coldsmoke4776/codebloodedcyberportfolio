@@ -3,8 +3,9 @@
     box-sizing: border-box;
   }
 
+
   body {
-    background-color: hsla(224, 49%, 15%, 0.4);
+    background-color:  #0f023d;
   }
 
   h1 {
@@ -40,6 +41,15 @@
   nav a {
     padding-left: 3px;
     padding-right: 3px;
+    color: #B19CFF;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5360aa;
   }
 
   h2 {
