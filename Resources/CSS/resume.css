@@ -17,12 +17,29 @@ h1 {
 h2 {
   text-align:center;
   font-size: 28pt;
+  color: whitesmoke;
 }
- 
- 
+
+h3 {
+  color: whitesmoke;
+}
+
+h4 {
+  color: whitesmoke;
+}
+
+h5 {
+  color: whitesmoke;
+}
+
+h6 {
+    color: whitesmoke;
+}
+
 p, 
 li {
   font-size: 18px;
+  color: whitesmoke;
 }
  
  
@@ -85,11 +102,14 @@ nav li a:hover {
       background-color: hsla(230, 100%, 25%, 0.4);
       color: whitesmoke;
       text-align: center;
-      font-weight: bold;
       padding: 5px;
   }
 
   nav a {
     padding-left: 3px;
     padding-right: 3px;
+  }
+
+  .box4 dl, dt {
+      color: whitesmoke;
   }

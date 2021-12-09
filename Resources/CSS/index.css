@@ -23,6 +23,7 @@ h2 {
 p, 
 li {
   font-size: 18px;
+  color: whitesmoke;
 }
  
  
@@ -85,7 +86,6 @@ nav li a:hover {
       background-color: hsla(230, 100%, 25%, 0.4);
       color: whitesmoke;
       text-align: center;
-      font-weight: bold;
       padding: 5px;
   }
 
