@@ -1,3 +1,4 @@
+/* Global Styling */
 * {
     font-family: 'Nunito', Helvetica, sans-serif;
     box-sizing: border-box;
@@ -9,8 +10,7 @@
   }
 
   h1 {
-    color: whitesmoke;
-    background-color: hsla(235, 100%, 25%, 0.4);
+    color: #AD94FF;
     text-align: center
   }
    
@@ -25,56 +25,55 @@
     text-decoration: none;
   }
 
-  table {
-      margin-left: auto;
-      margin-right: auto;
-  }
-
-  nav {
-      background-color: hsla(230, 100%, 25%, 0.4);
-      color: whitesmoke;
-      text-align: center;
-      font-weight: bold;
-      padding: 5px 5px;
-  }
-
-  nav a {
-    float: left;
-    color: #B19CFF;
-    display: block;
-    text-align: center;
-    padding: 14px 16px 0px 14px;
-    text-decoration: none;
-    border-right: 1px solid #bbb;
-  }
-
-  nav a:last-child {
-    border-right: none;
-  }
-
-  nav a:active {
-    background-color:hsla(215, 45%, 60%, 0.4);
-  }
+/* Nav Bar Styling */
 
   nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 5px 5px;
+    padding: 0;
     overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #5360aa;
+    background-color: #564A80;
   }
+
+  nav li {
+    display: inline;
+    float:left;
+  }
+
+  nav li:last-child {
+    border-right: none;
+  }
+  nav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      border-right: 1px solid #bbb;
+  }
+
+  nav li a:hover {
+    background-color: #111;
+  }
+
+  
 
 
   h2 {
       text-align:center;
   }
 
+/* Table Styling */
   table td {
       text-align: center;
   }
+
+  table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Page Section Styling */
 
   .boxmodel_diagram h2, p, h3 {
       text-align:center;
@@ -97,7 +96,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     background-color:hsla(215, 45%, 60%, 0.4);
-
+    background-image: url(./wave-haikei.svg);
   }
 
   .boxmodel_diagram { 
