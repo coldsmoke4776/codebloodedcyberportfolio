@@ -1,12 +1,12 @@
 /* Global Styling */
 * {
-  font-family: 'Nunito', Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   box-sizing: border-box;
 }
 
 
 body {
-  background-color:  #0f023d;
+  background-color:  #10092b;
 }
 
 h1 {
@@ -23,6 +23,7 @@ h2 {
 p, 
 li {
   font-size: 18px;
+  font-family: 'Source Sans Pro', Sans-Serif;
   color: whitesmoke;
 }
  
@@ -77,6 +78,8 @@ nav li a {
 nav li a:hover {
   background-color: #10092b;
 }
+
+
   table {
       margin-left: auto;
       margin-right: auto;
@@ -85,12 +88,7 @@ nav li a:hover {
   nav {
       color: whitesmoke;
       text-align: center;
-      padding: 5px;
   }
 
-  nav a {
-    padding-left: 3px;
-    padding-right: 3px;
-  }
 
   
