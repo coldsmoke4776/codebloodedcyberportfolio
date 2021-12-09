@@ -13,6 +13,11 @@
     color: #AD94FF;
     text-align: center
   }
+
+  h2 {
+    text-align:center;
+    font-size: 28pt;
+  }
    
    
   p, 
@@ -25,43 +30,111 @@
     text-decoration: none;
   }
 
+/* Page Section Styling */
+
+.header {
+  background-color: #10092b;
+}
+
+.header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.html_section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color:hsla(215, 45%, 60%, 0.4);
+  background-image: url(./wave-haikei.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+
+.html_section h2 {
+  color: #aba1ec;
+  font-weight: bold;
+}
+.boxmodel_diagram h2, p, h3 {
+    text-align:center;
+}
+
+img.boxmodel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 5px;
+}
+
+.boxmodel_diagram figcaption {
+    padding-top: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.boxmodel_diagram { 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #6881FF ;
+    background-image: url(./wave-haikei-2.svg);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.css_section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #6881FF;
+  background-image: url(./wave-haikei3.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.css_section h2 {
+  color: hsla(215, 45%, 60%, 0.4);
+  font-weight: bold;
+}
+
 /* Nav Bar Styling */
 
   nav ul {
+    display: block;
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     overflow: hidden;
     background-color: #564A80;
+    text-align: center;
   }
 
   nav li {
     display: inline;
-    float:left;
   }
 
   nav li:last-child {
     border-right: none;
   }
   nav li a {
-      display: block;
+      display: inline-block;
       color: white;
       text-align: center;
       padding: 14px 16px;
+      margin: 0 auto;
       text-decoration: none;
       border-right: 1px solid #bbb;
+      border-left: 1px solid #bbb;
   }
 
   nav li a:hover {
-    background-color: #111;
+    background-color: #10092b;
   }
 
-  
 
-
-  h2 {
-      text-align:center;
-  }
 
 /* Table Styling */
   table td {
@@ -73,42 +146,5 @@
     margin-right: auto;
 }
 
-/* Page Section Styling */
-
-  .boxmodel_diagram h2, p, h3 {
-      text-align:center;
-  }
-
-  img.boxmodel {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 5px;
-  }
-
-  .boxmodel_diagram figcaption {
-      padding-top: 5px;
-      text-align: center;
-      font-weight: bold;
-  }
-
-  .html_section {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color:hsla(215, 45%, 60%, 0.4);
-    background-image: url(./wave-haikei.svg);
-  }
-
-  .boxmodel_diagram { 
-      padding-top: 10px;
-      padding-bottom: 10px;
-      background-color:hsla(225, 45%, 60%, 0.4) ;
-  }
-
-  .css_section {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: hsla(255, 45%, 60%, 0.4);
-  }
 
   
