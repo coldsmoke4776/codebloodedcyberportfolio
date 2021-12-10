@@ -29,9 +29,14 @@
    
   a {
     text-decoration: none;
+    color: #6881FF;
   }
 
-/* Page Section Styling */
+  a:hover {
+    color: #aba1ec;
+  }
+
+/* Header Section Styling */
 
 .header {
   background-color: #10092b;
@@ -42,17 +47,6 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-.color_section {
-    background-color:hsla(215, 45%, 60%, 0.4);
-}
-
-.color_section h1 {
-  color: #aba1ec;
-  font-weight: bold;
-  font-family: 'Playfair Display', Serif;
-  font-size: 42px;
 }
 
 /* Nav Bar Styling */
@@ -88,3 +82,79 @@ nav ul {
   nav li a:hover {
     background-color: #10092b;
   }
+
+  /* Container Section Styling */
+
+.containers{
+    background-color:hsla(215, 45%, 60%, 0.4);  
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.containers h1 {
+    color: #aba1ec;
+    font-weight: bold;
+    font-family: 'Playfair Display', Serif;
+    font-size: 42px;
+}
+
+.containers h2 {
+    color: #aba1ec;
+    font-weight: bold;
+    font-family: 'Playfair Display', Serif;
+    font-size: 36px;
+}
+
+.containers h3 {
+    color: #aba1ec;
+    font-weight: bold;
+    font-family: 'Playfair Display', Serif;
+    font-size: 30px;
+}
+
+.containers p {
+    color:whitesmoke;
+}
+
+.colorpart {
+    display: inline-block;
+    color: #fff;
+}
+.color1 {
+    background-color: #10092b;
+    height: 150px;
+    width: 250px;
+    margin: 15px 10px;
+    border: 1px solid whitesmoke; 
+    border-radius: 10px 10px;     
+}
+.label{
+    color: whitesmoke;
+}
+.color2 {
+    background-color: hsla(215, 45%, 60%, 0.4);
+    height: 150px;
+    width: 250px;
+    margin: 15px 10px;
+    border: 1px solid whitesmoke; 
+    border-radius: 10px 10px;   
+}
+.color3 {
+    background-color: #6881FF;
+    height: 150px;
+    width: 250px;
+    margin: 15px 10px;
+    border: 1px solid whitesmoke; 
+    border-radius: 10px 10px; 
+}
+
+.color4 {
+    background-color: #3f0d8a;
+    height: 150px;
+    width: 250px;
+    margin: 15px 10px;
+    border: 1px solid whitesmoke; 
+    border-radius: 10px 10px;
+}
+  
