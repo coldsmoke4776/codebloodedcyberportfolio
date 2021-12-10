@@ -85,11 +85,9 @@ nav ul {
 
   /* Container Section Styling */
 
-.containers{
-    background-color:hsla(215, 45%, 60%, 0.4);  
+.containers{ 
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 10px;
     background-image: url(./firstsectionwave.svg);
     background-repeat: no-repeat;
     background-position: bottom;
@@ -165,8 +163,19 @@ nav ul {
   /* Font Section Styling */
 
   .fonts {
-    background-color:hsla(300, 43%, 70%, 0.4);  
+    background-color: hsla(215, 45%, 60%, 0.4);
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 10px;
+    background-image: url(./secondsectionwave.svg);
+    background-position: top;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+
+  .fonts h2 {
+    color: #aba1ec;
+    font-weight: bold;
+    font-family: 'Playfair Display', Serif;
+    font-size: 36px;
   }
