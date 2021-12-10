@@ -155,5 +155,16 @@ img.boxmodel {
     margin-right: auto;
 }
 
+/* Flexbox Section Styling */
 
-  
+.css_flexbox_section {
+  background-color: hsla(215, 45%, 60%, 0.4);
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-image: url(./secondsectionwave.svg);
+  background-position: top;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
