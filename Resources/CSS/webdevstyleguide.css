@@ -10,10 +10,8 @@
   }
 
   h1 {
-    text-align: center;
-    color: #aba1ec;
-    font-weight: bold;
-    font-family: 'Playfair', sans-serif;
+    color: #AD94FF;
+    text-align: center
   }
 
   h2 {
@@ -33,14 +31,60 @@
     text-decoration: none;
   }
 
-  /* Page Section Styling */
+/* Page Section Styling */
 
-  .color_section {
-    padding-top: 10px;
-    padding-bottom: 10px;
+.header {
+  background-color: #10092b;
+}
+
+.header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.color_section {
     background-color:hsla(215, 45%, 60%, 0.4);
-    background-image: url(./wave-haikei.svg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 100%;
+}
+
+.color_section h1 {
+  color: #aba1ec;
+  font-weight: bold;
+  font-family: 'Playfair Display', Serif;
+  font-size: 42px;
+}
+
+/* Nav Bar Styling */
+
+nav ul {
+    display: block;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #564A80;
+    text-align: center;
+  }
+
+  nav li {
+    display: inline;
+  }
+
+  nav li:last-child {
+    border-right: none;
+  }
+  nav li a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      margin: 0 auto;
+      text-decoration: none;
+      border-right: 1px solid #bbb;
+      border-left: 1px solid #bbb;
+  }
+
+  nav li a:hover {
+    background-color: #10092b;
   }
