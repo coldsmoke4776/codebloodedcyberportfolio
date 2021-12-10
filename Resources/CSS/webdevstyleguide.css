@@ -162,20 +162,96 @@ nav ul {
 
   /* Font Section Styling */
 
-  .fonts {
+.fonts {
     background-color: hsla(215, 45%, 60%, 0.4);
     text-align: center;
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     background-image: url(./secondsectionwave.svg);
     background-position: top;
     background-size:cover;
     background-repeat: no-repeat;
   }
 
-  .fonts h2 {
+.fonts h2 {
     color: #aba1ec;
     font-weight: bold;
     font-family: 'Playfair Display', Serif;
-    font-size: 36px;
+    font-size: 40px;
+    margin: 10px;
   }
+
+.fontstext {
+    display: inline-block;
+    justify-content: left;
+    padding-top: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.one p {
+    font-family: 'Playfair Display', sans-serif;
+    color:whitesmoke;
+    
+}
+
+.two p {
+    font-family: Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+.three p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color:whitesmoke;
+}
+
+ /* Text Styles Section Styling */
+
+.text_styles {
+    background-color: hsla(215, 45%, 60%, 0.4);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: url(./thirdsectionwave.svg);
+    background-position: bottom;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.text_styles h1 {
+    color: #aba1ec;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Playfair Display', Serif;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.text_styles h2 {
+    color: #6881FF;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Playfair Display', Serif;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.text_styles ul {
+    list-style-type: none;
+    text-align:center;
+}
+
+.text_styles li {
+    color:whitesmoke;
+    text-align:center;
+}
+
+.text_styles p {
+    color: #aba1ec;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', Serif;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
