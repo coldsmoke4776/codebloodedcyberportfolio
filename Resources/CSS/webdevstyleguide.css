@@ -90,7 +90,7 @@ nav ul {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: url(./stylesheetwave1.svg);
+    background-image: url(./firstsectionwave.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100%;
@@ -161,4 +161,12 @@ nav ul {
     border: 1px solid whitesmoke; 
     border-radius: 10px 10px;
 }
-  
+
+  /* Font Section Styling */
+
+  .fonts {
+    background-color:hsla(300, 43%, 70%, 0.4);  
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
