@@ -90,6 +90,10 @@ nav ul {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-image: url(./stylesheetwave1.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
 }
 
 .containers h1 {
