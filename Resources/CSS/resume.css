@@ -9,12 +9,6 @@ body {
   background-color:  #10092b;
 }
 
-h1 {
-  color: #AD94FF;
-  text-align: center;
-  font-family: 'Playfair Display', Serif;
-  font-size: 42px;
-}
 
 h2 {
   text-align:center;
@@ -50,7 +44,7 @@ a {
   text-decoration: none;
 }
 
-/* Page Section Styling */
+/* Header Section Styling */
 
 .header {
   background-color: #10092b;
@@ -97,6 +91,86 @@ nav li a:hover {
   background-color: #10092b;
 }
 
+/* Headshot and Tagline Section Styling */
+
+.headshot_tagline_section {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color:#10092b;
+  background-image: url(./wave-haikei.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+
+.headshot_tagline_section h1 {
+  color: #AD94FF;
+  text-align: center;
+  font-family: 'Playfair Display', Serif;
+  font-size: 42px;
+}
+
+.headshot_tagline_section h2 {
+  color: #AD94FF;
+  font-weight: bold;
+  font-family: 'Playfair Display', Serif;
+  font-size: 42px;
+}
+
+.headshot_tagline_section h3 {
+  text-align: center;
+  color: #AD94FF;
+  font-weight: bold;
+  font-family: 'Playfair', serif;
+  font-size: 20pt;
+}
+
+.headshot_tagline_section p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.headshot_tagline_section hr {
+  width: 75%;
+}
+
+.headshot {
+  height: 50%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headshot img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width: 50%;
+  border: 2px solid #AD94FF;
+  border-radius: 50%;
+}
+/* Professional summary Section Styling */
+
+.prof_summary_section {
+  padding-top: 15px;
+  text-align: center;
+  background-image: url(./wave-haikei-2.svg);
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.prof_summary_section h3 {
+  color: #3F0D8A;
+  font-family: 'Playfair Display', Serif;
+  font-size: 34px;
+  padding-bottom: 90px;
+}
+
+
+
+/* Misc Element Styling */
 
   table {
       margin-left: auto;
