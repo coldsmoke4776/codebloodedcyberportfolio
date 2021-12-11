@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html> 
   <head>
-    <title>HTML & CSS CheatSheet</title> 
+    <title>HTML & CSS Cheatsheet</title> 
     <link href=./Resources/CSS/cheatsheet.css rel='stylesheet'/>
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -121,10 +121,51 @@
             </tr>
           </tbody>
       </table>
+      </div>
+    <div class='div_section'>
       <br>
+      <h2>Breaking Up Pages With Divs</h2>
+      <br>
+      <p>A really good way of making life easier for yourself when it comes to building a web page is to break your HTML out into sections.</p>
+      <p>Divs essentially cordon off a section of your website as being separate and tell the browser that it may or may not have <strong>specific styling.</strong></p>
+      <p>We can then make that div stand out from the rest of the website <em>or</em> blend it in by altering its properties.</p>
+      <br>
+      <p>For example, underneath this line I've set up divs with a class of <strong>colorpart</strong> and given them a border </p>
+      <p>and background color to <strong>literally</strong> cordon off a section of the site and style it differently from the rest of the page!</p>
+    <div class='containers'> 
+        <div class='colorpart color1'>
+          <p>New divs, who this?</p>
+        </div>
+        <div class='colorpart color2'>
+        <p>New divs, who this?</p>
+        </div>
+        <div class='colorpart color3'>
+        <p>New divs, who this?</p>
+        </div>
+    </div>
+    <br>
+    <p>As you can see with the site design I chose to use on Code Blooded Cyber, each section of the site I divided into its own div</p>
+    <p>by theme and gave it a class of something like 'html_section' or 'css-section'. By giving each div a different styling and</p>
+    <p>different background SVG image (the wavy lava lamp shapes), you can start to build a unique and striking site design.</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     </div>
     <div class='boxmodel_diagram'>
           <h2>CSS Tips & Tricks</h2>
+          <br>
+          <br>
+          <h3>The Box Model</h3>
           <img class='boxmodel' src="Resources/CSS/CSS box model.svg" alt='The CSS Box Model'/>
           <figcaption>The Box Model - Well worth learning if you can! </figcaption>
           <p>The main thing you need to learn about the Box Model is that it comprises
@@ -132,7 +173,7 @@
           <h3>Border</h3>
           <p>Every box has a border around it, whether it's visible or not - its job is to separate one box's edge from another box's edge.</p>
           <h3>Margin</h3>
-          <p>Margin sit outside the edge of the border and create gaps <em>between</em> borders!</p>
+          <p>Margin sits outside the edge of the border and create gaps <em>between</em> borders!</p>
           <h3>Padding</h3>
           <p>Padding is just the space between your content and the border of a box!</p>
     </div>
@@ -185,7 +226,49 @@
       </table>
     </div>
     <div class="css_flexbox_section">
+        <br>
         <h2>Flexible Box Layout (Flexbox)</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>Flexbox layout has two major components: <em>flex containers</em> and <em>flex items.</em></p>
+        <p>Flex containers are elements on the web page that, unsurprisingly, contain flex items.</p>
+        <p>It's pretty easy to set an element as a flex container - you just set <em>display: flex;</em> or <em>display: inline-flex;</em> on the container.</p>
+        <p>The whole idea of flex containers is for when you want to create a site that <strong>responds properly when you change screen sizes.</strong></p>
+        <p>Before we go much further into that though, let's talk about what <em>inline, inline-block</em> and <em>block</em> elements are:</p>
+        <br>
+        <h3>Inline Elements</h3>
+        <p>Elements that are set to <em>display: inline;</em>  only appear on the same line.</p>
+        <p>Inline elements don't start on a new line and only occupy as much width as the content does.</p>
+        <p>Try and set a height or width property on an inline element, and it won't work!</p>
+        <br>
+        <h3>Inline-Block Elements</h3>
+        <p>Elements that are set to <em>display: inline-block;</em>  only appear on the same line.</p>
+        <p>Inline-block elements are basically the same as inline elements except that you <strong>can</strong></p>
+        <p>set height and width properties on inline-block elements and have them work!</p>
+        <br>
+        <h3>Block Elements</h3>
+        <p>Elements that are set to <em>display: block;</em>  start on new lines.</p>
+        <p>Block elements are basically the opposite of inline elements - they start on new lines</p>
+        <p>and block elements also take up <strong>the entire width of that line!</strong></p>
+        <p>An example of HTML elements that are block level elements are <em>div, h1, p, li and section.</em></p>
+        <p>If you give a div the <em>display: flex;</em> declaration, it will remain a block element.</p>
+        <br>
+        <p>Let's take a look at what these actually look like in practice!</p>
+    </div>
+    <div class="css_flexbox_section_diagram">
+        <img src="Resources/CSS/blockvsinline.svg" alt='Visually explaining inline, inline-block and block elements'/>
+        <figcaption>Concepts like these are always easier understood visually, I've found!</figcaption>
+    </div>
+    <div class='bottom_cheatsheet_section'>
+        <br>
+        <br>
+        <br>
+        <h3>I'll add more sections to this cheatsheet as I get better at Front-End Development!</h3>
+        <br>
+        <br>
+        <br>
     </div>
   </body>
   </html>
