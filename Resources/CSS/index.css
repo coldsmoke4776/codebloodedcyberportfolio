@@ -11,12 +11,20 @@ body {
 
 h1 {
   color: #AD94FF;
-  text-align: center
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size: 3rem;
 }
 
 h2 {
-  text-align:center;
+  text-align:left;
   font-size: 28pt;
+  padding-top: 20px;
+  padding-left: 50px;
+  color: #cec1fa;
+  font-family: 'Playfair Display', serif;
 }
  
  
@@ -39,10 +47,100 @@ a {
 }
 
 .header img {
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+/* Headline Section Styling  */
+
+.flex_headline_section {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.headline_section {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 30pt;
+  margin-bottom: 30pt;
+}
+
+/* Headshot Styling */
+
+.headshot img {
+  display: inline-flex;
+  border: 2px solid #AD94FF;  
+  height: 50;
+  width: 50%;
+  margin-left: 40px;
+}
+
+/* Three Column Section Styling */
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  color: #c8b7ff;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 24pt;
+}
+
+.column a {
+  color: #c8b7ff;
+}
+
+.column a:hover {
+  color: #8075a1;
+}
+
+.column h3 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 24pt;
+  color: #c8b7ff;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#column1 {
+  background-color: hsla(215, 45%, 60%, 0.4);
+  padding: 10px;
+}
+
+#column2 {
+  background-color: #c8b7ff;
+  padding: 10px 10px;
+}
+
+#column2 h3 {
+  color: #3F0D8A;
+}
+
+#column2 p {
+  color: #3F0D8A;
+}
+
+#column3 {
+  background-color: #3F0D8A;
+  padding: 10px 10px;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
 
 /* Nav Bar Styling */
@@ -90,5 +188,20 @@ nav li a:hover {
       text-align: center;
   }
 
+/* Quote Section Styling */
 
-  
+.quote_section {
+  margin-top: 50px;
+  background-image: url(./thirdsectionwave.svg);
+  background-position: bottom;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.quote_section h2 {
+  text-align: center;
+  margin-bottom: 175px;
+}
+
+
+/* General Component Styling */
