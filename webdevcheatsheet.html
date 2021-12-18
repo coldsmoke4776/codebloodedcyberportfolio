@@ -255,11 +255,120 @@
         <p>An example of HTML elements that are block level elements are <em>div, h1, p, li and section.</em></p>
         <p>If you give a div the <em>display: flex;</em> declaration, it will remain a block element.</p>
         <br>
-        <p>Let's take a look at what these actually look like in practice!</p>
     </div>
     <div class="css_flexbox_section_diagram">
         <img src="Resources/CSS/blockvsinline.svg" alt='Visually explaining inline, inline-block and block elements'/>
-        <figcaption>Concepts like these are always easier understood visually, I've found!</figcaption>
+        <figcaption>As you can see, with inline you can't adjust the height or width of the items, whereas you can with the others!</figcaption>
+        <br>
+        <br>
+        <h2>Flex-containers and Flex-items: Positioning Your Stuff</h2>
+        <br>
+        <img src="Resources/CSS/flexparentandchild.svg" alt="Visually explaining flex-container and flex-items"/>
+        <figcaption>It's important to note with flexbox layout that some properties <br> 
+            apply to the <em>parent</em> element (the flex-container) and some properties apply to the <em>child</em> element <br>
+             contained within the parent element (the flex-items)</figcaption>
+    </div>
+    <div class="css_flexbox_section2">
+        <br>
+        <h3>Properties You Use With Parent Elements (flex-container)</h3>
+        <table border="1" bgcolor=#fff0f5>
+            <thead>
+                <tr>
+                    <th scope="col">Flex-container Property</th>
+                    <th scope="col"> What It Does</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>display</td>
+                    <td>Defines the flex-container as flex-inline or block depending on the value, also defines a <em>flex context</em> for flex-items. </td>
+                </tr>
+                <tr>
+                    <td>flex-direction</td>
+                    <td>Basically defines the main axis or <strong>direction</strong> of flex-items within a flex-container.<br>
+                        Valid options for flex-direction are <strong>row</strong>(right-to-left), <strong>row-reverse</strong>(left-to-right),
+                        <strong>column</strong>(up-to-down) and <strong>column-reverse</strong>(down-to-up).<br></td>
+                </tr>
+                <tr>
+                    <td>flex-wrap</td>
+                    <td>This one's a little harder to understand. By default, the idea is that flex-items try to all stay on one line. But what if they can't? <br> 
+                        Flex-wrap essentially tells the browser what to do if that's not possible for whatever reason. There are a few valid options for flex-wrap:<br>
+                        <strong>no-wrap</strong> means all flex-items stay on one line regardless.<br>
+                        <strong>wrap</strong> means that items will wrap to the next line from top-to-bottom.<br>
+                        <strong>wrap-reverse</strong> means that items will wrap to the next-line from bottom-to-top.</td>
+                </tr>
+                <tr>
+                    <td>justify-content</td>
+                    <td>Lets you specify the alignment of your content along the <strong>main axis</strong> you defined in flex-direction.<br>
+                        There are a bunch of valid values for justify-content that let you do different things to help position your content (assumes left-to-right):<br>
+                        <strong>flex-start</strong> positions your content to the left of the flex-container.<br>
+                        <strong>flex-end</strong> positions your content to the right of the flex-container.<br>
+                        <strong>center</strong> positions your content in the center, unsurprisingly.<br>
+                        <strong>space-between</strong> distributes your content evenly throughout the container.<br>
+                        <strong>space-around</strong> distributes your content evenly throughout the container with equal space around them. <br>
+                         Items at the container edge (first and last) will have <em>one</em> unit at the container edge and <em>two</em> on the other side,<br>
+                        because the second/penultimate item has its own applied spacing too.<br>
+                        <strong>space-evenly</strong> does much the same as space-around but also makes sure the container edge spaces are even, too.
+                    </td>
+                </tr>
+                <tr>
+                    <td>align-items</td>
+                    <td>Lets you specify the alignment of your content along the <strong>cross-axis</strong>, or the perpendicular axis to the one you specified in flex-direction.<br>
+                        There are a bunch of valid values for align-items that let you do different things to help position your content (assumes top-to-bottom):<br>
+                        <strong>flex-start</strong> positions your content to the top of the flex-container.<br>
+                        <strong>flex-end</strong> positions your content to the bottom of the flex-container.<br>
+                        <strong>center</strong> positions your content in the center, unsurprisingly.<br>
+                        <strong>stretch</strong> stretches the content to fill the flex-container, respecting any min/max-width properties you've set.<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>gap</td>
+                    <td>Explicitly defines the size of gap <em>between</em> flex-items - <em>not</em> at the outer edges. </td>
+                </tr>
+            </tbody>
+          </table>
+        <br>
+        <h3>Properties You Use With Child Elements (flex-item)</h3>
+        <table border="1" bgcolor=#fff0f5>
+            <thead>
+                <tr>
+                    <th scope="col">Flex-item Property</th>
+                    <th scope="col"> What It Does</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>order</td>
+                    <td>Defines the <strong>order</strong> that flex-items appear within the flex-container. </td>
+                </tr>
+                <tr>
+                    <td>flex-grow / flex-shrink</td>
+                    <td>This one is an interesting property. <em>Flex-grow</em> defines how much of the remaining available space within<br>
+                         a flex-container a given item with this property should take up. <em>Flex-shrink</em> defines how much a given item should shrink, if necessary.<br>
+                        Let's say there are <strong>three</strong> flex-items within a flex-container and flex-grow is set to <strong>1.</strong><br>
+                        In this example, should you resize the browser, the remaining space in the flex-container will be distributed <em>equally</em>  to each item.<br>
+                        If one of the three items has flex-grow set to <strong>2</strong> though, that item would take up <em>twice</em> the avaialble remaining space (or at least try).</td>
+                </tr>
+                <tr>
+                    <td>align-self</td>
+                    <td>This one is pretty much the same as <em>align-items</em> from the above table, with many of the same values being valid. <br>
+                        You'd use this mainly to <strong>override</strong> the default alignment given to a flex-item by the align-items property on the container the flex-item is in. </td>
+                </tr>
+            </tbody>
+          </table>
+          <br>
+          <h3>Credit to the ever-fantastic <a href='https://css-tricks.com/snippets/css/a-guide-to-flexbox/#basics-and-terminology'>CSS-Tricks</a> for this great example of how you can center your elements with flexbox:</h3>
+          <p>.parent (flex-containers)  { <br>
+            display: flex;<br>
+            height: 300px;<br>
+          }<br>
+          <br>
+          .child (flex-items)  { <br>
+            width: 100px;<br>
+            height: 100px; <br>
+            margin: auto;<br>
+          }<br>
+         </p>
     </div>
     <div class='bottom_cheatsheet_section'>
         <br>

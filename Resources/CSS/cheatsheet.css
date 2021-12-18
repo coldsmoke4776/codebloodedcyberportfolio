@@ -238,7 +238,33 @@ img.boxmodel {
   background-repeat: no-repeat;
 }
 
+.css_flexbox_section2 {
+  background-color: hsla(215, 45%, 60%, 0.4);
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.css_flexbox_section2 a {
+  color: #aba1ec;
+}
+
+.css_flexbox_section2 a:hover {
+  color: #716b9c;
+}
+
+
+
 .css_flexbox_section h2 {
+  color: #aba1ec;
+  font-weight: bold;
+  font-family: 'Playfair Display', Serif;
+  font-size: 40px;
+  margin-top: 20px;
+  margin: 10px;
+}
+
+.css_flexbox_section2 h2 {
   color: #aba1ec;
   font-weight: bold;
   font-family: 'Playfair Display', Serif;
@@ -252,7 +278,16 @@ img.boxmodel {
   font-weight: bold;
 }
 
+.css_flexbox_section2 h3 {
+  color: #aba1ec;
+  font-weight: bold;
+}
+
 .css_flexbox_section p {
+  color: whitesmoke;
+}
+
+.css_flexbox_section2 p {
   color: whitesmoke;
 }
 
@@ -261,6 +296,15 @@ img.boxmodel {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.css_flexbox_section_diagram h2 {
+  color: #aba1ec;
+  font-weight: bold;
+  font-family: 'Playfair Display', Serif;
+  font-size: 40px;
+  margin-top: 40px;
+  margin: 10px;
 }
 
 .css_flexbox_section_diagram figcaption{
