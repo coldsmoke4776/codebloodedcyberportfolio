@@ -14,9 +14,13 @@
     text-align: center
   }
 
+
   h2 {
+    color: #AD94FF;
+    font-weight: bold;
+    font-family: 'Playfair Display', Serif;
+    font-size: 42px;
     text-align:center;
-    font-size: 28pt;
   }
    
    
@@ -76,4 +80,13 @@ nav li a {
 
 nav li a:hover {
   background-color: #10092b;
+}
+
+/* Portfolio Section 1 - Cyber Field Manual */
+
+.first_portfolio_project h2 {
+  color: #AD94FF;
+  font-weight: bold;
+  font-family: 'Playfair Display', Serif;
+  font-size: 42px;
 }
