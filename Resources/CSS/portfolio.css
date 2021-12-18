@@ -113,9 +113,108 @@ nav li a:hover {
 
 /* Portfolio Section 1 - Cyber Field Manual */
 
+.first_portfolio_project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: justify;
+  padding-bottom: 30pt;
+}
+
 .first_portfolio_project h2 {
   color: #AD94FF;
   font-weight: bold;
   font-family: 'Playfair Display', Serif;
   font-size: 42px;
+}
+
+.first_portfolio_project img {
+  display: flex;
+  height: 45;
+  width: 45%;
+  border: 2px solid #AD94FF;
+  border-radius: 50%;
+}
+
+.first_portfolio_project a:hover {
+  color: #AD94FF;
+  opacity: 0.5;
+}
+
+.CFM_picture img {
+  display: flex;
+  margin: auto;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.first_portfolio_project .CFM_picture a:hover {
+    color: #AD94FF;
+    opacity: 0.5;
+}
+
+.CFM_description {
+  display: flex;
+  margin: auto;
+  text-align: justify;
+}
+
+.CFM_description a {
+  color: #AD94FF;
+}
+
+
+/* Portfolio Section 2 - Comfortably Dumb */
+
+.second_portfolio_project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: justify;
+  padding-bottom: 20pt;
+}
+
+.second_portfolio_project h2 {
+  color: #AD94FF;
+  font-weight: bold;
+  font-family: 'Playfair Display', Serif;
+  font-size: 42px;
+}
+
+.second_portfolio_project img {
+  display: flex;
+  margin: auto;
+  height: 45;
+  width: 70%;
+  border: 2px solid #AD94FF;
+  border-radius: 50%;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.second_portfolio_project a:hover {
+  color: #AD94FF;
+  opacity: 0.5;
+}
+
+.CD_picture img {
+  display: flex;
+  margin: auto;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.second_portfolio_project .CD_picture a:hover {
+    color: #AD94FF;
+    opacity: 0.5;
+}
+
+.CD_description {
+  display: flex;
+  margin: auto;
+  text-align: justify;
+}
+
+.CD_description a {
+  color: #AD94FF;
 }
