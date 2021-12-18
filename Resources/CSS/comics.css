@@ -15,10 +15,18 @@
   }
 
   h2 {
-    text-align:center;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #AD94FF;
     font-size: 28pt;
   }
-   
+  
+  h3 {
+    text-align: center;
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 22pt;
+  }
    
   p, 
   li {
@@ -76,4 +84,19 @@ nav li a {
 
 nav li a:hover {
   background-color: #10092b;
+}
+
+/* Comic 1 Styling */
+
+.comic1 {
+  padding-bottom: 30pt;
+}
+
+.comic1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width: 50%;
+  border: 2px solid #AD94FF;
 }
