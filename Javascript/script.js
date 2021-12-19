@@ -25,3 +25,8 @@ let updateScore = winner => {
 let advanceRound = () => {
     currentRoundNumber += 1;
 }
+
+updateScore('human')
+console.log(humanScore)
+updateScore('computer')
+console.log(computerScore)
