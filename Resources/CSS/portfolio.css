@@ -111,6 +111,15 @@ nav li a:hover {
   background-color: #10092b;
 }
 
+/* Section 1: Writing and Blogging Styling */
+
+.writing_and_blogging_section {
+  background-image: url(./wave-haikei.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+
 /* Portfolio Section 1 - Cyber Field Manual */
 
 .first_portfolio_project {
@@ -171,8 +180,9 @@ nav li a:hover {
   flex-direction: row;
   justify-content: space-evenly;
   text-align: justify;
-  padding-bottom: 20pt;
+  padding-bottom: 20px;
 }
+
 
 .second_portfolio_project h2 {
   color: #AD94FF;
@@ -213,8 +223,28 @@ nav li a:hover {
   display: flex;
   margin: auto;
   text-align: justify;
+  padding-bottom: 250px;
 }
 
 .CD_description a {
   color: #AD94FF;
+}
+
+/* Section 2 - Development Project Styling */
+
+.development_projects_section {
+    padding-top: 15px;
+    text-align: center;
+    background-image: url(./wave-haikei-2.svg);
+    background-color: hsla(215, 45%, 60%, 0.4);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.development_projects_section h2 {
+    color: #3F0D8A;
+    font-family: 'Playfair Display', Serif;
+    font-size: 34px;
+    padding-bottom: 90px;
 }

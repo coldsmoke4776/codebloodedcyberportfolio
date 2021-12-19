@@ -15,10 +15,18 @@
   }
 
   h2 {
-    text-align:center;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #AD94FF;
     font-size: 28pt;
   }
-   
+  
+  h3 {
+    text-align: center;
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 22pt;
+  }
    
   p, 
   li {

@@ -152,7 +152,7 @@ nav li a:hover {
   border-radius: 10px 10px;   
 }
 .color3 {
-  background-color: #6881FF;
+  background-color: hsla(215, 45%, 60%, 0.4);
   height: 150px;
   width: 250px;
   margin: 15px 10px;
@@ -174,7 +174,7 @@ nav li a:hover {
 }
 
 .boxmodel_diagram h3 {
-  color: #3F0D8A;
+  color: #aba1ec;
   font-family: 'Playfair Display', Serif;
   font-size: 34px;
 }
@@ -195,13 +195,13 @@ img.boxmodel {
     padding-top: 5px;
     text-align: center;
     font-weight: bold;
-    color: #3F0D8A;
+    color: #aba1ec;
 }
 
 .boxmodel_diagram { 
     padding-top: 6px;
     padding-bottom: 10px;
-    background-color: #4e6af3 ;
+    background-color: hsla(215, 45%, 60%, 0.4);
     background-image: url(./wave-haikei-2.svg);
     background-position: top;
     background-size: 100%;
@@ -213,7 +213,7 @@ img.boxmodel {
 .css_section {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #4e6af3;
+  background-color: hsla(215, 45%, 60%, 0.4);
   background-image: url(./firstsectionwave.svg);
   background-position: bottom;
   background-repeat: no-repeat;
@@ -228,7 +228,7 @@ img.boxmodel {
 /* Flexbox Section Styling */
 
 .css_flexbox_section {
-  background-color: hsla(215, 45%, 60%, 0.4);
+  background-color: #3e4a85;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -239,7 +239,7 @@ img.boxmodel {
 }
 
 .css_flexbox_section2 {
-  background-color: hsla(215, 45%, 60%, 0.4);
+  background-color: #3e4a85;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -252,7 +252,6 @@ img.boxmodel {
 .css_flexbox_section2 a:hover {
   color: #716b9c;
 }
-
 
 
 .css_flexbox_section h2 {
@@ -292,7 +291,7 @@ img.boxmodel {
 }
 
 .css_flexbox_section_diagram {
-  background-color: hsla(215, 45%, 60%, 0.4);
+  background-color: #3e4a85;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -318,7 +317,7 @@ img.boxmodel {
 
 
 .bottom_cheatsheet_section {
-  background-color: hsla(215, 45%, 60%, 0.4);
+  background-color: #3e4a85;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
