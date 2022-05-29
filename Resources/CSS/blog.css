@@ -32,6 +32,8 @@
   li {
     font-family: 'Source Sans Pro', Sans-Serif;
     font-size: 18px;
+    color: whitesmoke;
+    text-align: center;
   }
    
    
@@ -84,4 +86,12 @@ nav li a {
 
 nav li a:hover {
   background-color: #10092b;
+}
+
+.bottom_section {
+  margin-top: 50px;
+  background-image: url(./thirdsectionwave.svg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

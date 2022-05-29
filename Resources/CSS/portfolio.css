@@ -127,7 +127,7 @@ nav li a:hover {
   flex-direction: row;
   justify-content: space-evenly;
   text-align: justify;
-  padding-bottom: 30pt;
+  padding-bottom: 20px;
 }
 
 .first_portfolio_project h2 {
@@ -139,8 +139,10 @@ nav li a:hover {
 
 .first_portfolio_project img {
   display: flex;
-  height: 45;
-  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 62%;
+  width: 50%;
   border: 2px solid #AD94FF;
   border-radius: 50%;
 }
@@ -152,7 +154,6 @@ nav li a:hover {
 
 .CFM_picture img {
   display: flex;
-  margin: auto;
   align-items: flex-start;
   justify-content: space-evenly;
 }
@@ -166,6 +167,7 @@ nav li a:hover {
   display: flex;
   margin: auto;
   text-align: justify;
+  padding-bottom: 175px;
 }
 
 .CFM_description a {
@@ -180,7 +182,7 @@ nav li a:hover {
   flex-direction: row;
   justify-content: space-evenly;
   text-align: justify;
-  padding-bottom: 20px;
+  padding-bottom: 100px;
 }
 
 
@@ -193,13 +195,11 @@ nav li a:hover {
 
 .second_portfolio_project img {
   display: flex;
-  margin: auto;
-  height: 45;
-  width: 70%;
+  margin-left: auto;
+  height: 50%;
+  width: 75%;
   border: 2px solid #AD94FF;
   border-radius: 50%;
-  align-items: flex-start;
-  justify-content: space-evenly;
 }
 
 .second_portfolio_project a:hover {
@@ -209,7 +209,6 @@ nav li a:hover {
 
 .CD_picture img {
   display: flex;
-  margin: auto;
   align-items: flex-start;
   justify-content: space-evenly;
 }

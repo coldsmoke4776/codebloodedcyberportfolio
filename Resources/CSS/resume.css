@@ -164,8 +164,8 @@ nav li a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 50%;
-  width: 50%;
+  height: 60%;
+  width: 60%;
   border: 2px solid #AD94FF;
   border-radius: 50%;
 }
